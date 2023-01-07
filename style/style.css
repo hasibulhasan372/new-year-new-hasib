@@ -72,9 +72,18 @@
     border-radius: 5px;
     float: right; 
 }
+
+/* Banner Part End  */
+
 /* Main Part Style    */
-.learning-part{
+
+.main{
     padding-top: 124px;
+    padding-bottom: 130px;
+}
+
+/* Learning or Failur Part Start  */
+.learning-part{
     padding-bottom: 130px;
 }
 .learning-body-part{
@@ -111,3 +120,81 @@
     width: 10px;
     filter: invert(59%) sepia(64%) saturate(1728%) hue-rotate(110deg) brightness(107%) contrast(83%);
 }
+/* Learning or Failur Style Part End */
+
+/* My Plan Part Style Start  */
+.plans{
+    padding-bottom: 130px;
+
+}
+
+.plans-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    gap: 85px;
+    text-align: center;
+}
+
+.skill-type img{
+    text-align: center;
+}
+.skills-name{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+.start-skill{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 26px;
+}
+/* My Plan Part Style End  */
+
+/* Call Now Part Start  */
+.call-now-part{
+    background-image: url(../images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    border: none;
+    border-radius: 8px;
+}
+.call-now-part-overly{
+    background-image: linear-gradient(to right,#F15B22, #F15B2200);
+    padding: 59px 0;
+}
+.call-now-body{
+    padding-left: 64px;
+    padding-right: 617px;
+}
+.call-now-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+.call-now-btn{
+    padding: 21px 36px 20px;
+    color:#F15B22;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+
+/* Call Now Part End  */
+
+/* Main Part End  */
+
