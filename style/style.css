@@ -108,6 +108,12 @@
     padding-bottom: 16px;
 
 }
+.failur-list-reason img{
+    width: 16px;
+    height: 11px;
+    filter: invert(59%) sepia(64%) saturate(1728%) hue-rotate(110deg) brightness(107%) contrast(83%);
+    margin-right: 10px;
+}
 .failur-list-reason{
     list-style-type: none;
     padding-bottom: 8px;
@@ -116,10 +122,7 @@
     line-height: 26px;
 
 }
-.failur-list-reason img{
-    width: 10px;
-    filter: invert(59%) sepia(64%) saturate(1728%) hue-rotate(110deg) brightness(107%) contrast(83%);
-}
+
 /* Learning or Failur Style Part End */
 
 /* My Plan Part Style Start  */
@@ -197,4 +200,77 @@
 /* Call Now Part End  */
 
 /* Main Part End  */
+
+/* Footer Part Start  */
+.footer-part{
+    background-color: #000;
+    padding: 130px 0;
+}
+.footer-part-body{
+    display: flex;
+}
+.future-contact{
+    width: 485px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #fff;
+
+}
+.future-descrption{
+    line-height: 26px;
+    color: #fff;
+    padding-top: 16px;
+    
+}
+.contact-no{
+    color: #fff;
+    padding-top: 24px;
+}
+.scoail-media{
+    padding-top: 32px;
+}
+.social-icon{
+    margin-right: 17px;
+}
+.subscribe-part{
+    margin-left: 331px;
+    width: 325px;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+    padding-bottom: 31px;
+}
+#email{
+    width: 100%;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding-left: 21px;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.subscribe-part input::placeholder{
+    color: #fff;
+    font-size: 18px;
+    
+}
+.subscribe-btn{
+    padding: 21px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#F15B22;
+    border: none;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+/* Footer Part End  */
 
